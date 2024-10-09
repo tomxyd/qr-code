@@ -23,8 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
--    Solution URL: [Add solution URL here](https://your-solution-url.com)
--    Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-    Live Site URL: [Add live site URL here](https://tomxyd.github.io/qr-code/)
 
 ## My process
 
@@ -39,22 +38,24 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I learned
 
 I learnt how to define variables in css using :root selector
+
 ```css
 :root {
-  --var-name: value;
+     --var-name: value;
 }
 body {
-  font-family: var(--var-name);
+     font-family: var(--var-name);
 }
 ```
 
 I also learnt that to center a block, you can either use the Flexbox method, or
 use the margin auto, then set the size of the block by changing the values of
 either height or width. It is good to note that by default before styling in css, you should set the html and body to a minimum height of 100vh or 100%.
+
 ```css
 html,
 body {
-  min-height: 100vh / 100%
+     min-height: 100vh / 100%;
 }
 ```
 
@@ -63,14 +64,9 @@ Note: In responsive designs, it is best to use the mobile-first approach, becaus
 most people use their phones to access a website first. To do this, you style for
 phones first, then use a media query of min-width: 750px.
 
-
 ## Author
 
--    Website - [Tolulope Mojid](https://www.your-site.com)
--    Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
--    Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-
+-    Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/tomxyd)
 
 ## Acknowledgments
 
